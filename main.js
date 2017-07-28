@@ -15,6 +15,7 @@ function question1 () {
     sum += data[i].price;
   }
   avg = sum / data.length;
+  avg = avg.toFixed(2);
   console.log("The average price is $" + avg);
 }
 
